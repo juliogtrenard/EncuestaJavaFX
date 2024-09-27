@@ -5,6 +5,8 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
    <top>
        <VBox alignment="CENTER" prefHeight="135.0" prefWidth="600.0" BorderPane.alignment="CENTER">
@@ -64,7 +66,17 @@
                        <Insets right="5.0" />
                    </padding>
                </Label>
-               <ComboBox fx:id="cbEdad" prefWidth="150.0" />
+               <ComboBox fx:id="cbEdad" prefWidth="150.0">
+                   <items>
+                       <FXCollections fx:factory="observableArrayList">
+                           <String fx:id="menor18" fx:value="Menores de 18" />
+                           <String fx:id="entre18_30" fx:value="Entre 18 y 30" />
+                           <String fx:id="entre31_50" fx:value="Entre 31 y 50" />
+                           <String fx:id="entre51_70" fx:value="Entre 51 y 70" />
+                           <String fx:id="mayor70" fx:value="Mayores de 70" />
+                       </FXCollections>
+                   </items>
+               </ComboBox>
            </HBox>
        </VBox>
    </top>
