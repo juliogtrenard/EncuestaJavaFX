@@ -81,6 +81,29 @@
                    </value>
                </ComboBox>
            </HBox>
+         <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+            <children>
+               <Label text="Sexo:">
+                  <font>
+                     <Font size="14.0" />
+                  </font>
+               </Label>
+               <RadioButton mnemonicParsing="false" text="Hombre">
+                  <toggleGroup>
+                     <ToggleGroup fx:id="rbGroup" />
+                  </toggleGroup>
+                  <HBox.margin>
+                     <Insets left="15.0" right="15.0" />
+                  </HBox.margin>
+               </RadioButton>
+               <RadioButton mnemonicParsing="false" text="Mujer" toggleGroup="$rbGroup" />
+               <RadioButton mnemonicParsing="false" text="Otro" toggleGroup="$rbGroup">
+                  <HBox.margin>
+                     <Insets left="15.0" right="15.0" />
+                  </HBox.margin>
+               </RadioButton>
+            </children>
+         </HBox>
        </VBox>
    </top>
    <padding>
