@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<BorderPane xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane prefHeight="500.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
    <top>
        <VBox alignment="CENTER" prefHeight="135.0" prefWidth="600.0" BorderPane.alignment="CENTER">
            <VBox alignment="CENTER" prefHeight="114.0" prefWidth="600.0">
@@ -37,6 +37,9 @@
                        <Font name="System Italic" size="11.0" />
                    </font>
                </TextField>
+            <VBox.margin>
+               <Insets top="10.0" />
+            </VBox.margin>
            </HBox>
            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
                <padding>
@@ -80,30 +83,51 @@
                        <String fx:value="Menores de 18" />
                    </value>
                </ComboBox>
+            <VBox.margin>
+               <Insets top="10.0" />
+            </VBox.margin>
            </HBox>
-         <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
-            <children>
+           <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
                <Label text="Sexo:">
-                  <font>
-                     <Font size="14.0" />
-                  </font>
+                   <font>
+                       <Font size="14.0" />
+                   </font>
                </Label>
                <RadioButton mnemonicParsing="false" text="Hombre">
-                  <toggleGroup>
-                     <ToggleGroup fx:id="rbGroup" />
-                  </toggleGroup>
-                  <HBox.margin>
-                     <Insets left="15.0" right="15.0" />
-                  </HBox.margin>
+                   <toggleGroup>
+                       <ToggleGroup fx:id="rbGroup" />
+                   </toggleGroup>
+                   <HBox.margin>
+                       <Insets left="15.0" right="15.0" />
+                   </HBox.margin>
                </RadioButton>
                <RadioButton mnemonicParsing="false" text="Mujer" toggleGroup="$rbGroup" />
                <RadioButton mnemonicParsing="false" text="Otro" toggleGroup="$rbGroup">
-                  <HBox.margin>
-                     <Insets left="15.0" right="15.0" />
-                  </HBox.margin>
+                   <HBox.margin>
+                       <Insets left="15.0" right="15.0" />
+                   </HBox.margin>
                </RadioButton>
-            </children>
-         </HBox>
+            <VBox.margin>
+               <Insets top="10.0" />
+            </VBox.margin>
+           </HBox>
+           <HBox alignment="CENTER" minHeight="100.0">
+               <CheckBox fx:id="chkDeporte" alignment="CENTER" mnemonicParsing="false" text="¿Practica algún deporte?">
+               <HBox.margin>
+                  <Insets right="80.0" />
+               </HBox.margin></CheckBox>
+               <VBox prefHeight="200.0" prefWidth="100.0">
+                   <Label text="¿Cuál?" />
+                   <ListView fx:id="lstDeporte" disable="true" VBox.vgrow="ALWAYS">
+                       <Label text="Tenis" />
+                       <Label text="Fútbol" />
+                       <Label text="Baloncesto" />
+                   </ListView>
+               </VBox>
+            <VBox.margin>
+               <Insets top="10.0" />
+            </VBox.margin>
+           </HBox>
        </VBox>
    </top>
    <padding>
