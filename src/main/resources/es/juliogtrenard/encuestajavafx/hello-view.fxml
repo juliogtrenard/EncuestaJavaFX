@@ -76,6 +76,9 @@
                            <String fx:id="mayor70" fx:value="Mayores de 70" />
                        </FXCollections>
                    </items>
+                   <value>
+                       <String fx:value="Menores de 18" />
+                   </value>
                </ComboBox>
            </HBox>
        </VBox>
