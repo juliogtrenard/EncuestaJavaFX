@@ -22,9 +22,20 @@ public class HelloController {
     private Slider sliderCine;
 
     @FXML
+    private TextField txtProfesion;
+
+    @FXML
+    private TextField txtNumHermanos;
+
+    @FXML
     private void initialize() {
         habilitarLista();
         tooltips();
+    }
+
+    @FXML
+    public void mostrarDatos(ActionEvent actionEvent) {
+
     }
 
     @FXML

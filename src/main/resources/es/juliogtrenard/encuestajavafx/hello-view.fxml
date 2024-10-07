@@ -171,7 +171,7 @@
                <opaqueInsets>
                    <Insets />
                </opaqueInsets>
-               <Button fx:id="btnAceptar" mnemonicParsing="false" text="Aceptar">
+               <Button fx:id="btnAceptar" mnemonicParsing="false" onAction="#mostrarDatos" text="Aceptar">
                    <padding>
                        <Insets bottom="4.0" left="70.0" right="70.0" top="4.0" />
                    </padding>
