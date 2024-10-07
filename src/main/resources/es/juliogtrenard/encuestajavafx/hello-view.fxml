@@ -168,22 +168,22 @@
                <Insets bottom="10.0" top="20.0" />
            </BorderPane.margin>
            <HBox alignment="CENTER">
-              <children>
-                  <Button fx:id="btnAceptar" mnemonicParsing="false" text="Aceptar">
-                  <padding>
-                     <Insets bottom="4.0" left="70.0" right="70.0" top="4.0" />
-                  </padding>
-                  <HBox.margin>
-                     <Insets right="30.0" />
-                  </HBox.margin></Button>
-                  <Button fx:id="btnCancelar" mnemonicParsing="false" text="Cancelar">
-                  <padding>
-                     <Insets bottom="4.0" left="70.0" right="70.0" top="4.0" />
-                  </padding></Button>
-              </children>
-              <opaqueInsets>
-                  <Insets />
-              </opaqueInsets>
+               <opaqueInsets>
+                   <Insets/>
+               </opaqueInsets>
+               <Button fx:id="btnAceptar" mnemonicParsing="false" text="Aceptar">
+                   <padding>
+                       <Insets bottom="4.0" left="70.0" right="70.0" top="4.0"/>
+                   </padding>
+                   <HBox.margin>
+                       <Insets right="30.0"/>
+                   </HBox.margin>
+               </Button>
+               <Button fx:id="btnCancelar" mnemonicParsing="false" text="Cancelar">
+                   <padding>
+                       <Insets bottom="4.0" left="70.0" right="70.0" top="4.0"/>
+                   </padding>
+               </Button>
            </HBox>
        </VBox>
    </bottom>
