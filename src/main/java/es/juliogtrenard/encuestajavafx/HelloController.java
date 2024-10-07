@@ -1,7 +1,9 @@
 package es.juliogtrenard.encuestajavafx;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
+import javafx.stage.Stage;
 
 public class HelloController {
     @FXML
@@ -23,6 +25,11 @@ public class HelloController {
     private void initialize() {
         habilitarLista();
         tooltips();
+    }
+
+    @FXML
+    public void cerrarVentana(ActionEvent event) {
+        ((Stage)(((Button)event.getSource()).getScene().getWindow())).close();
     }
 
     @FXML
