@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="076417b0-9a8b-4c9e-8ffc-bf78706b7d77" name="Changes" comment="ADD slider con aficiones">
+    <list default="true" id="076417b0-9a8b-4c9e-8ffc-bf78706b7d77" name="Changes" comment="ADD tooltips para la lista y los sliders">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/juliogtrenard/encuestajavafx/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/juliogtrenard/encuestajavafx/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/juliogtrenard/encuestajavafx/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/juliogtrenard/encuestajavafx/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/es/juliogtrenard/encuestajavafx/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/es/juliogtrenard/encuestajavafx/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728293590173</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ADD tooltips para la lista y los sliders">
+      <option name="closed" value="true" />
+      <created>1728294818611</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728294818611</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,7 +87,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -87,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ADD slider con aficiones" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD slider con aficiones" />
+    <MESSAGE value="ADD tooltips para la lista y los sliders" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD tooltips para la lista y los sliders" />
   </component>
 </project>
