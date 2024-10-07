@@ -11,4 +11,13 @@ public class HelloController {
 
     @FXML
     private ListView<Label> lstDeporte;
+
+    @FXML
+    private void initialize() {
+        lstDeporte.setDisable(true);
+
+        chkDeporte.selectedProperty().addListener((observable, oldValue, newValue) -> {
+            lstDeporte.setDisable(!newValue);
+        });
+    }
 }

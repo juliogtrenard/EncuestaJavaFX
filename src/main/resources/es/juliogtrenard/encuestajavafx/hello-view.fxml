@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<BorderPane prefHeight="500.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane prefHeight="500.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.juliogtrenard.encuestajavafx.HelloController">
    <top>
        <VBox alignment="CENTER" prefHeight="135.0" prefWidth="600.0" BorderPane.alignment="CENTER">
            <VBox alignment="CENTER" prefHeight="114.0" prefWidth="600.0">
@@ -118,10 +118,13 @@
                </HBox.margin></CheckBox>
                <VBox prefHeight="200.0" prefWidth="100.0">
                    <Label text="¿Cuál?" />
-                   <ListView fx:id="lstDeporte" disable="true" VBox.vgrow="ALWAYS">
+                   <ListView fx:id="lstDeporte" VBox.vgrow="ALWAYS">
                        <Label text="Tenis" />
                        <Label text="Fútbol" />
                        <Label text="Baloncesto" />
+                       <Label text="Natación" />
+                       <Label text="Ciclismo" />
+                       <Label text="Otro" />
                    </ListView>
                </VBox>
             <VBox.margin>
