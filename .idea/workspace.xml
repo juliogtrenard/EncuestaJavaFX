@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="076417b0-9a8b-4c9e-8ffc-bf78706b7d77" name="Changes" comment="ADD botón cancelar cierra la aplicación">
+    <list default="true" id="076417b0-9a8b-4c9e-8ffc-bf78706b7d77" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/juliogtrenard/encuestajavafx/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/juliogtrenard/encuestajavafx/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/es/juliogtrenard/encuestajavafx/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/es/juliogtrenard/encuestajavafx/hello-view.fxml" afterDir="false" />
@@ -45,15 +45,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/dm2/Escritorio/DEI/PruebasJavaFX"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dm2/Escritorio/DEI/PruebasJavaFX&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -103,7 +103,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728296897920</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="UPDATE misc.xml">
+      <option name="closed" value="true" />
+      <created>1728503067251</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728503067251</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <option name="closed" value="true" />
+      <created>1728503130038</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728503130038</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +151,8 @@
     <MESSAGE value="ADD botones de aceptar y cancelar" />
     <MESSAGE value="ADD tamaños minimos de la ventana" />
     <MESSAGE value="ADD botón cancelar cierra la aplicación" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD botón cancelar cierra la aplicación" />
+    <MESSAGE value="UPDATE misc.xml" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

@@ -106,7 +106,7 @@
                    </HBox.margin>
                </RadioButton>
                <RadioButton mnemonicParsing="false" text="Mujer" toggleGroup="$rbGroup" />
-               <RadioButton mnemonicParsing="false" text="Otro" toggleGroup="$rbGroup">
+               <RadioButton mnemonicParsing="false" selected="true" text="Otro" toggleGroup="$rbGroup">
                    <HBox.margin>
                        <Insets left="15.0" right="15.0" />
                    </HBox.margin>
