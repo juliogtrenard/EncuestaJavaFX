@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="076417b0-9a8b-4c9e-8ffc-bf78706b7d77" name="Changes" comment="ADD documentación Javadoc en HelloApplication">
+    <list default="true" id="076417b0-9a8b-4c9e-8ffc-bf78706b7d77" name="Changes" comment="ADD documentación Javadoc para la clase HelloController">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/juliogtrenard/encuestajavafx/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/juliogtrenard/encuestajavafx/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728559879335</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ADD documentación Javadoc para la clase HelloController">
+      <option name="closed" value="true" />
+      <created>1728560383181</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728560383181</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +187,7 @@
     <MESSAGE value="ADD implementada ventana con datos de la encuesta y mensajes de error si no se completa algún campo" />
     <MESSAGE value="update changes" />
     <MESSAGE value="ADD documentación Javadoc en HelloApplication" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD documentación Javadoc en HelloApplication" />
+    <MESSAGE value="ADD documentación Javadoc para la clase HelloController" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD documentación Javadoc para la clase HelloController" />
   </component>
 </project>
